@@ -1,0 +1,394 @@
+.subscribe-section img {
+    display: flex !important;
+    align-items: left;
+    justify-content: start;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.subscribe input {
+    width: 100%;
+    height: 50px;
+    border: 0;
+}
+
+.subscribe button {
+    border: none;
+    background-color: #1CBDBE;
+    text-transform: capitalize;
+    color: #091627;
+    font-weight: bold;
+    padding: 0 40px;
+    border: 1px solid #1CBDBE !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.subscribe button:hover {
+    background-color: #091627;
+    color: white;
+    transition: all 0.9s ease;
+    border: 1px solid #1CBDBE !important;
+}
+
+.footer-main {
+    background-color: #091627;
+}
+
+.footer-header h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.footer-sections {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first-colum {}
+
+.first-colum p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.first-colum h6 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin: 30px 0px;
+}
+
+/* .social1 {
+    color: white;
+    text-align: center;
+    margin-right: 24px;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #7a7975;
+    border-radius: 100%;
+} */
+
+.social3,
+.social4,
+.social5 {
+    color: white;
+    text-align: center;
+    margin-right: 24px;
+    padding: 12px;
+    width: 55px;
+    height: 55px;
+
+    border: 1px solid #7a7975;
+    border-radius: 100%;
+}
+
+.social3:hover {
+    color: white;
+    border: 1px solid #1877F2;
+    background-color: #1877F2;
+}
+
+.social4:hover {
+    color: white;
+    border: 1px solid #1877F2;
+    background-color: #1877F2;
+}
+
+.social5:hover {
+    background: linear-gradient(#962fbf, #4f5bd5)
+}
+
+
+.footer-head {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #D9D9D9;
+    text-align: left;
+}
+
+.footer-link {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.footer-link:hover {
+    color: #1CBDBE;
+}
+
+.divider {
+    display: block;
+    opacity: 0.1;
+    border: 2px solid #1CBDBE;
+
+}
+
+.footer-last {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+@media only screen and (max-width: 667px) {
+    .subscribe-section {}
+
+    .subscribe-section {}
+
+    .subscribe-section img {
+        width: 50%;
+        height: auto;
+        margin: 30px auto 10px;
+    }
+
+    .subscribe-section label {
+        text-align: center;
+        margin: 0px 0 15px 0;
+        line-height: 35px;
+    }
+
+
+    .subscribe {
+        display: block;
+    }
+
+    .subscribe button {
+        border: none;
+        margin-top: 20px;
+        padding: 13px 30px;
+        width: 100%;
+    }
+
+    .network {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .social3,
+    .social4,
+    .social5 {
+
+        width: 50px;
+        height: 50px;
+
+
+    }
+
+
+
+
+
+    .footer-main {
+        padding: 5px 5px;
+        margin-bottom: -150px;
+
+    }
+
+    .footerTop-main {
+        padding: 30px 5px;
+        margin-bottom: 180px;
+        width: 100%;
+    }
+
+    .footer-header h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+        padding: 8px;
+    }
+
+    .footer-header button {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px 20px;
+    }
+
+    .footer-sections {
+        margin-top: 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .first-colum {
+        text-align: center;
+    }
+
+    .first-colum p {
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    .first-colum h6 {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 30px 0px;
+    }
+
+    .footer-head {
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+        margin: 50px 0 20px 0px;
+    }
+
+    .footer-link {
+        text-align: center;
+    }
+
+    .divider {
+        border: 1px solid #F3EFE4;
+    }
+
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .subscribe-section {}
+
+    .subscribe-section {}
+
+    .subscribe-section img {
+        width: 100%;
+        height: auto;
+        margin: 30px auto 10px;
+    }
+
+    .subscribe-section label {
+        text-align: right;
+        line-height: 35px;
+    }
+
+
+    .subscribe {
+        display: flex;
+    }
+
+    .subscribe button {
+        border: none;
+        padding: 10px 5px;
+    }
+
+    .network {
+        width: 50%;
+        display: flex !important;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .social3,
+    .social4,
+    .social5 {
+
+        width: 50px;
+        height: 50px;
+
+
+    }
+
+
+
+
+    .footer-sections {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-main {
+        padding: 10px 25px;
+        margin-bottom: -200px;
+    }
+
+    .footerTop-main {
+        padding: 40px 10px;
+        width: auto;
+        margin-bottom: 120px;
+    }
+
+    .footer-header h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+        padding: 8px;
+    }
+
+    .footer-header button {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px 20px;
+    }
+
+    .footer-sections {
+        margin-top: 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .first-colum {
+        text-align: center;
+    }
+
+    .first-colum p {
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    .first-colum h6 {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 30px 0px;
+    }
+
+    .footer-head {
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+        margin: 50px 0 20px 0px;
+    }
+
+    .footer-link {
+        text-align: center;
+    }
+
+    .divider {
+        border: 1px solid #F3EFE4;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}
