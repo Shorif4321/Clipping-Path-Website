@@ -57,9 +57,9 @@ const Footer = () => {
                     <div className='d-md-flex justify-content-between align-items-center py-3'>
                         <div className='d-flex network my-4'>
                             <p className='me-2 fs-2'>
-                                <a href="" target="_blank" className='text-decoration-none'><i className="social3 fab fa-facebook-f"></i></a>
-                                <a href="" target="_blank" className='text-decoration-none'>  <i className="social5 fab fa-instagram"></i></a>
-                                <a href="" target="_blank" className='text-decoration-none'> <i className="social4 fab fa-twitter"></i></a>
+                                <Link to="/" className='text-decoration-none'><i className="social3 fab fa-facebook-f"></i></Link>
+                                <Link to="/" className='text-decoration-none'>  <i className="social5 fab fa-instagram"></i></Link>
+                                <Link to="/" className='text-decoration-none'> <i className="social4 fab fa-twitter"></i></Link>
                             </p>
                         </div>
                         <div>
