@@ -46,3 +46,53 @@
 
 
 }
+
+.slider {
+    height: 100%;
+    width: 5px;
+    background-color: #00ccff;
+}
+
+
+
+@media only screen and (max-width: 667px) {
+
+    .service-section h2 {
+        color: #7b7c7e;
+    }
+
+
+    .clipping-main {
+        display: block;
+
+    }
+
+    /* =---- Image event moving section------= */
+    .clipping-main img {
+        object-fit: cover;
+    }
+
+    .card-body {
+        margin-top: 20px;
+    }
+
+    .card-text {
+        text-align: justify;
+    }
+
+
+
+    .service-button:hover {
+        background-color: #00ccff;
+        border: 1px solid #00ccff;
+        color: white;
+        transition: all 0.9s ease;
+
+
+    }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}
