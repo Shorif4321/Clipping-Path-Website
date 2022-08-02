@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import TwentyTwenty from "react-twentytwenty";
 import './Pricing.css'
-import imgage2 from "../../../Images/raster_vector_service_before_01.jpg"
-import imgage1 from "../../../Images/neck_joint_ghost_mannequin_service_thumb_after_01.jpg"
 const Pricing = () => {
 
     const [prices, setPrices] = useState([]);

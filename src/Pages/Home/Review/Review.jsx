@@ -2,12 +2,25 @@ import React from 'react';
 import "./Review.css"
 import otherwise from '../../../Images/use.png'
 import quite from '../../../Images/blockquite.png'
+import quotation from '../../../Images/quotation.png'
 
 
 const Review = () => {
     return (
         <div className='review-main py-5'>
+            <div className="col-12 col-lg-9 container mt-5 pt-md-5">
+                <div className='d-flex  review-heading'>
+                    <blockquote> <img className='img-fluid me-3' src={quotation} alt="blockquote" /></blockquote>
+
+
+                    <blockquote> <h1>Real Stories from Real Clients</h1>
+                        <p className=''>Get Inspired by this Stores</p></blockquote>
+
+                </div>
+            </div>
+
             <div className="review-sub container py-md-5 col-lg-7 col-md-11 m-auto">
+
                 <div className=" col-12 col-md-6 text-start ">
                     <div className="review-left  rounded ">
                         <div className="p-4">
@@ -67,7 +80,7 @@ const Review = () => {
                 </div>
             </div>
             {/* end */}
-            <div className="review-sub container py-md-5 col-lg-7 col-md-11 m-auto">
+            <div className="review-sub container pb-5 col-lg-7 col-md-11 m-auto">
                 <div className="col-12 col-md-6  text-start review-sub me-md-5 ">
                     <div className="review-right">
                         <div className="review-left  m-auto rounded">
