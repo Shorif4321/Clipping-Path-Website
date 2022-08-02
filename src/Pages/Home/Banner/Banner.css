@@ -154,11 +154,12 @@
 
     .hero-head {
         font-weight: 500;
-        font-size: 25px;
+        font-size: 30px;
         line-height: 35px;
         text-align: left;
         padding: 10px 0 0 0px;
         margin-top: 30px;
+        text-transform: capitalize;
     }
 
     .hero-description {

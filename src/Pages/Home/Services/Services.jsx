@@ -37,10 +37,10 @@ const Services = () => {
 
                 <div className="row ">
                     {
-                        services?.map(service => <div className="col-12 col-md-6 g-4 my-3">
+                        services?.map(service => <div className="col-12 col-md-12 col-lg-6 my-3">
                             <div className="clipping-main p-4">
-                                <div className='col-12 col-md-5'>
-                                    <TwentyTwenty
+                                <div className='col-12 col-md-5 '>
+                                    <TwentyTwenty className=""
                                         left={<img className="card-img-top" src={service?.image} />}
                                         right={<img className="card-img-top" src={service?.image2} />}
                                         slider={<div className="slider" />}
@@ -58,9 +58,24 @@ const Services = () => {
                         </div>
                         )
                     }
+                    <div className='pagination-main col-12'>
+                        <span className='pagination'>1</span>
+                        <span className='pagination'>2</span>
+                        <span className='pagination'>3</span>
+                        <span className='pagination'>4</span>
+                        <p className='pagination'>5</p>
+                        <p className='pagination'>6</p>
+                        <p className='pagination'>7</p>
+                        <p className='pagination'>8</p>
+                        <p className='pagination'>9</p>
+                    </div>
                 </div>
 
+
+
+
             </div>
+
 
 
         </div>

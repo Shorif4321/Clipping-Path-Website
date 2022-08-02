@@ -20,15 +20,6 @@
     object-fit: cover;
 }
 
-
-
-
-
-
-.clipping-card {}
-
-.clipping-card {}
-
 .service-button {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
@@ -36,6 +27,8 @@
     text-decoration: none;
     border: 1px solid #00ccff;
     padding: 10px 30px;
+    margin: 0px 10px 0 10px;
+
 }
 
 .service-button:hover {
@@ -49,11 +42,44 @@
 
 .slider {
     height: 100%;
-    width: 5px;
+    width: 4px;
     background-color: #00ccff;
 }
 
+.pagination-main {
+    display: flex;
+}
 
+.pagination {
+    background-color: #00ccff;
+    margin: 20px 20px 0px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #00ccff;
+
+}
+
+.pagination:hover {
+    background-color: #00ccff00;
+    border: 1px solid #00ccff;
+}
+
+
+/* .twentytwenty-handle {
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -22px;
+    margin-top: -22px;
+    border: 3px solid #fff;
+    border-radius: 1000px;
+    -webkit-box-shadow: 0 0 12px rgb(51 51 51 / 50%);
+    box-shadow: 0 0 12px rgba(51, 51, 51, .5);
+    z-index: 40;
+    cursor: pointer;
+} */
 
 @media only screen and (max-width: 667px) {
 
@@ -80,8 +106,13 @@
         text-align: justify;
     }
 
+    .service-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
 
-
+    /* 
     .service-button:hover {
         background-color: #00ccff;
         border: 1px solid #00ccff;
@@ -89,10 +120,37 @@
         transition: all 0.9s ease;
 
 
+    } */
+
+    .pagination-main {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
     }
 
+    .pagination {
+        background-color: #00ccff;
+        margin: 10px 24px 8px 0;
+        padding: 7px 10px;
+        border-radius: 10px;
+    }
+
+    .service-button {
+        margin: 0px 8px 0 8px;
+    }
 }
 
-@media only screen and (max-width:991px) and (min-width:668px) {}
 
-@media only screen and (max-width: 1200px) and (min-width:992px) {}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .service-button {
+        margin: 0px 8px 0 8px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+    .service-button {
+        display: flex;
+        margin: 20px 0 0 0;
+        justify-content: space-around;
+    }
+}
