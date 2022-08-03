@@ -4,24 +4,31 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: rgba(0, 0, 0, 0.31);
 }
+
 
 .pricing {
     box-shadow: 0 1px 18px -10px rgb(0 0 0 / 30%);
 }
 
+.card-body h4 {
+    color: #7b7c7e;
+}
+
 .pricing-card {
     border: 1px solid white;
     border-radius: 5px;
+    background-color: white;
 }
+
 
 .pricing-card:hover {
     transition: all 0.5s;
 }
 
 .divide {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #7b7c7e;
     width: 100%;
 }
 

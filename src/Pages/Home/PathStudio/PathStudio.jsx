@@ -4,7 +4,7 @@ import clipping from "../../../Images/home-studio.webp"
 
 const PathStudio = () => {
     return (
-        <div className='py-lg-5'>
+        <div className='py-lg-5 pathStudio'>
             <div className='container row py-5 my-md-5'>
                 {/*   <h1 className='clipping-text'>Why Clipping Path Studio?</h1> */}
                 <div className="row">

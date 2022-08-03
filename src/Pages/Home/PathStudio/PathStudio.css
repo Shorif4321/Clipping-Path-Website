@@ -17,7 +17,7 @@
 
 .clop-right h2 {
     font-family: system-ui;
-    color: #091627;
+    color: #7b7c7e;
     font-weight: 500;
     font-size: 45px;
     line-height: 50px;
@@ -26,12 +26,12 @@
 }
 
 .clop-right span {
-    color: #00ccff;
+    color: #2374e1;
 }
 
 .clop-right h5 {
     font-family: system-ui;
-    color: #091627;
+    color: #7b7c7e;
     font-weight: 500;
     font-size: 30px;
     line-height: 35px;
@@ -40,7 +40,7 @@
 
 .clop-right p {
     font-family: system-ui;
-    color: #091627;
+    color: #7b7c7e;
     font-weight: 500;
     font-size: 17px;
     margin-bottom: 30px;
@@ -52,7 +52,7 @@
     font-weight: 400;
     font-size: 35px;
     line-height: 30px;
-    background-color: #00ccff2f;
+    background-color: #2375e1aa;
     padding: 5px 5px 10px 3px;
     width: 400px;
 
@@ -92,7 +92,6 @@
 
     .clop-right h5 {
         font-family: system-ui;
-        color: #091627;
         font-weight: 400;
         font-size: 25px;
         line-height: 30px;
@@ -100,7 +99,6 @@
 
     .clop-right p {
         font-family: system-ui;
-        color: #091627;
         font-weight: 400;
         font-size: 17px;
     }
@@ -129,8 +127,7 @@
     }
 
     .clop-right h5 {
-        font-family: system-ui;
-        color: #091627;
+
         font-weight: 500;
         font-size: 25px;
         line-height: 30px;
@@ -139,8 +136,6 @@
 
 
     .clop-right p {
-        font-family: system-ui;
-        color: #091627;
         font-weight: 400;
         font-size: 17px;
         margin-bottom: 20px;
@@ -163,4 +158,8 @@
     }
 }
 
-@media only screen and (max-width: 1200px) and (min-width:992px) {}
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+    .pathStudio {
+        margin-top: 100px;
+    }
+}

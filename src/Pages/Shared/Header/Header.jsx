@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import "./Header.css"
-import logo from "../../../Images/images.png"
+import logo from "../../../Images/Clipping Path 1 Logo.svg"
 const Header = () => {
 
     const [click, setClick] = useState(false);
@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
         <nav className='navbar'>
-            <div className="nav-container container">
+            <div className=" container">
                 <div>
                     <Nav.Link className="nav-logo"><Link className='nav-links' to="/"> <img className='img-fluid' src={logo} alt="" /> </Link>
                     </Nav.Link>

@@ -13,10 +13,10 @@ const Banner = () => {
 
                             <h1 className='hero-head'>Grow up yourBusiness and <span>  Branding</span> as your  Dream
                             </h1>
-                            <p className='hero-description'>Growing up of business and branding is always challenging but not impossible.The more you use technology in business, the more people will be engaged and boostup business profit. </p>
+                            <p className='hero-description mb-5 mt-4'>Growing up of business and branding is always challenging but not impossible.The more you use technology in business, the more people will be engaged and boostup business profit. </p>
 
-                            <div className='hero-button text-start'>
-                                <Link to="/service"> <button className='common-button'>Get Started</button></Link>
+                            <div className='hero-button text-start mb-5'>
+                                <Link to="/service"> <button className='common-button '>Get Started</button></Link>
                             </div>
                         </div>
                     </div>

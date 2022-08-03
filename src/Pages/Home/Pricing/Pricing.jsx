@@ -39,27 +39,27 @@ const Pricing = () => {
                                 </div>
 
                                 <div className="col-10 card-body m-auto  mt-3">
-                                    <h4 className="card-title text-white text-start">{price.name}</h4>
+                                    <h4 className="card-title  text-start">{price.name}</h4>
                                     <div className='divide d-flex justify-content-between  m-auto'>
-                                        <p className="card-text py-3 common-p text-white">{price?.des?.slice(0, 25)}</p>
-                                        <p className=" card-text py-3 common-p text-white">$ {price?.id}</p>
+                                        <p className="card-text py-3 common-p ">{price?.des?.slice(0, 25)}</p>
+                                        <p className=" card-text py-3 common-p ">$ {price?.id}</p>
                                     </div>
                                     <div className='divide d-flex justify-content-between  m-auto'>
-                                        <p className="card-text py-3 common-p text-white">{price?.des?.slice(0, 25)}</p>
-                                        <p className=" card-text py-3 common-p text-white">$ {price?.id}</p>
+                                        <p className="card-text py-3 common-p ">{price?.des?.slice(0, 25)}</p>
+                                        <p className=" card-text py-3 common-p ">$ {price?.id}</p>
                                     </div>
                                     <div className='divide d-flex justify-content-between  m-auto'>
-                                        <p className="card-text py-3 common-p text-white">{price?.des?.slice(0, 25)}</p>
-                                        <p className=" card-text py-3 common-p text-white">$ {price?.id}</p>
+                                        <p className="card-text py-3 common-p ">{price?.des?.slice(0, 25)}</p>
+                                        <p className=" card-text py-3 common-p ">$ {price?.id}</p>
                                     </div>
                                     <div className='divide d-flex justify-content-between  m-auto'>
-                                        <p className="card-text py-3 common-p text-white">{price?.des?.slice(0, 25)}</p>
-                                        <p className=" card-text py-3 common-p text-white">$ {price?.id}</p>
+                                        <p className="card-text py-3 common-p ">{price?.des?.slice(0, 25)}</p>
+                                        <p className=" card-text py-3 common-p ">$ {price?.id}</p>
                                     </div>
 
                                     <div className='mt-5'>
-                                        <Link className='service-button text-center text-white ' to="/">Explore</Link>
-                                        <Link className='service-button text-center text-white ' to="/">Explore</Link>
+                                        <Link className='service-button text-center ' to="/">Explore</Link>
+                                        <Link className='service-button text-center  ' to="/">Explore</Link>
                                     </div>
                                 </div>
                             </div>

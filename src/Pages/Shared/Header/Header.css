@@ -10,11 +10,12 @@
 .on-scroll {
     background-color: white;
     box-shadow: 5px 0px 30px rgb(16 19 48 / 8%);
+
 }
 
 
 .navbar {
-    background-color: #00AFFE;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,9 +63,8 @@
 }
 
 .nav-links {
-    color: #fff;
+    color: #2374e1;
     text-decoration: none;
-    padding: 0.5rem 1rem;
     height: 100%;
     border-bottom: 3px solid transparent;
     font-weight: 500;
@@ -86,7 +86,7 @@
 
 .nav-item {
     line-height: 40px;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .nav-item:after {
@@ -100,7 +100,7 @@
 
 .nav-item:hover:after {
     width: 100%;
-    background: #ffdd40;
+    background: #2374e1;
 }
 
 .nav-item .active {

@@ -10,9 +10,9 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
-    background-color: #e2eaee;
-    padding: 14px 40px;
-    border: 1px solid #00ccff;
+    background-color: #2374e1;
+    padding: 15px 35px;
+    border: 1px solid #2374e1;
     text-transform: uppercase;
 
 }
@@ -21,7 +21,7 @@
     background-color: white;
     color: #091627;
     transition: all 0.9s ease;
-    border: 1px solid #00ccff;
+    border: 1px solid #2374e1;
 }
 
 
@@ -42,13 +42,13 @@
 
 .main-banner-card {
     position: absolute;
-    bottom: 0;
+    bottom: -40px;
     left: 0;
     right: 0;
 }
 
 .banner-card {
-    background-color: #00ccff;
+    background-color: #2374e1;
     color: white;
     border-radius: 3px;
     padding: 15px;
@@ -124,7 +124,6 @@
     }
 
     .banner-card {
-        background-color: #00ccff;
         color: white;
         border-radius: 3px;
         padding: 15px;
@@ -233,3 +232,40 @@
         padding: 0;
     }
 }
+
+@media only screen and (max-width:991px) and (min-width:668px) {}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+
+    .banner {
+        height: 80vh;
+        align-items: center;
+        position: relative;
+        background-color: #e2eaee;
+
+    }
+
+    .main-banner-card {
+        position: absolute;
+        bottom: -170px;
+        left: 0;
+        right: 0;
+    }
+}
+
+/* @media only screen and (max-width: 1440px) and (min-width:1201px) {
+    .banner {
+        height: 70vh;
+        align-items: center;
+        position: relative;
+        background-color: #e2eaee;
+    }
+
+    .main-banner-card {
+        position: absolute;
+        bottom: 17%;
+        left: 0;
+        right: 0;
+    }
+
+} */

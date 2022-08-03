@@ -6,14 +6,7 @@ import TwentyTwenty from "react-twentytwenty";
 
 
 const Services = () => {
-    /* ========= Page Load from top of the page code start ========= 
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, []) */
-
-
     const [services, setServices] = useState([]);
-
     useEffect(() => {
         fetch('./Services.JSON')
             .then(res => res.json())
@@ -21,8 +14,6 @@ const Services = () => {
         console.log(services);
 
     }, [])
-
-
 
 
     return (

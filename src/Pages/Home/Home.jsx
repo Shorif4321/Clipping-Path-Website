@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Banner from './Banner/Banner';
 import PathStudio from './PathStudio/PathStudio';
 import Pricing from './Pricing/Pricing';
+import QA from './QA/QA';
 import Review from './Review/Review';
 import Services from './Services/Services';
 
@@ -17,6 +18,7 @@ const Home = () => {
             <Services></Services>
             <Pricing></Pricing>
             <Review></Review>
+            <QA></QA>
         </>
     );
 };

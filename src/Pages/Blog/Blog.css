@@ -1,0 +1,154 @@
+.blog-box {
+    padding: 70px 0px;
+    background-color: #f2f3f5;
+}
+
+.blog-inner {
+    background: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 10px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.blog-img {
+    overflow: hidden;
+}
+
+.blog-img img {
+    transition: all 0.9s ease 0s;
+}
+
+.blog-inner:hover .blog-img img {
+    -moz-transform: scale(1.5) rotate(-10deg);
+    -webkit-transform: scale(1.5) rotate(-10deg);
+    -ms-transform: scale(1.5) rotate(-10deg);
+    -o-transform: scale(1.5) rotate(-10deg);
+    transform: scale(1.5) rotate(-10deg);
+}
+
+.blog-inner a {
+    border-radius: 2px;
+    transition: .2s;
+    letter-spacing: 1px;
+    padding: 10px 18px;
+    background: #ffffff;
+    color: #12557f;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.blog-inner a.new-btn-d.br-2 {
+    border: 2px solid #12557f;
+}
+
+.blog-inner a.new-btn-d::before {
+    background: rgba(18, 85, 127, 0.2);
+}
+
+
+.blog-inner a:hover {
+    color: #ffffff;
+}
+
+.blog-inner .item-meta {
+    background: #2374e1;
+}
+
+.blog-inner .item-meta a {
+    background: #2374e1;
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+}
+
+.blog-inner .item-meta span {
+    color: #ffffff;
+    background: #00cb86;
+    display: inline-block;
+    padding: 5px;
+}
+
+.blog-inner h2 {
+    margin-top: 20px;
+}
+
+.fa-comments-o {
+    text-decoration: none;
+}
+
+.new-btn-d {
+    text-decoration: none;
+}
+
+
+
+.subscribe-box {
+    padding: 70px 0px;
+    background: url(../../Images/use.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #000000cf;
+}
+
+.left-box {
+    border-radius: 5px;
+    padding: 40px 20px;
+}
+
+.subscribe-inner {
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.subscribe-inner h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.subscribe-inner p {
+    color: #cccccc;
+}
+
+.subscribe-inner .form-group .form-control-1 {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 0px;
+    border: none;
+}
+
+.blog-button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #2375e100 !important;
+    border: 1px solid #2374e1;
+    color: #091627;
+    padding: 10px 30px;
+    margin: 0px 10px 0 10px;
+
+}
+
+.blog-button:hover {
+    background-color: #2374e1 !important;
+    border: 1px solid #2374e1;
+    color: #091627 !important;
+    transition: all 0.8s ease;
+}
+
+
+@media only screen and (max-width: 667px) {
+    .arrow-image {
+        width: 15px;
+    }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}
