@@ -6,7 +6,7 @@
 
 .common-button {
     font-family: auto;
-    color: #091627;
+    color: rgba(255, 255, 255, 0.814);
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
@@ -14,7 +14,7 @@
     padding: 15px 35px;
     border: 1px solid #2374e1;
     text-transform: uppercase;
-
+    border-radius: 5px;
 }
 
 .common-button:hover {
@@ -49,8 +49,8 @@
 
 .banner-card {
     background-color: #2374e1;
-    color: white;
-    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.814);
+    border-radius: 4px;
     padding: 15px;
 
 }

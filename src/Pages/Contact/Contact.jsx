@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import "./Contact.css"
 
 const Contact = () => {
-    /* useEffect(() => {
+    useEffect(() => {
         window.scrollTo(0, 0)
-    }, []) */
+    }, [])
 
     const [infos, setfos] = useState([]);
     useEffect(() => {

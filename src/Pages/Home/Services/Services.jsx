@@ -41,7 +41,7 @@ const Services = () => {
 
                                 </div>
                                 <div className="card-body text-start ps-md-4 col-12 col-md-7">
-                                    <h3 className="card-title">{service.name}</h3>
+                                    <h4 className="card-title">{service?.name?.slice(0, 30)}</h4>
                                     <p className="card-text py-3 common-p">{service.des.slice(0, 325)}</p>
                                     <Link className='service-button text-center' to="/">Explore</Link>
                                 </div>

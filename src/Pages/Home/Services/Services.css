@@ -21,12 +21,13 @@
 .service-button {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    color: #091627;
+    color: rgba(255, 255, 255, 0.814);
     text-decoration: none;
     border: 1px solid #2374e1;
     background-color: #2374e1;
     padding: 10px 30px;
     margin: 0px 10px 0 10px;
+    border-radius: 5px;
 
 }
 
@@ -39,6 +40,7 @@
     background-color: #2374e1;
     padding: 10px 30px;
     margin: 0px 10px 0 10px;
+    border-radius: 5px;
 
 }
 
@@ -67,17 +69,20 @@
 }
 
 .pagination {
-    background-color: #2374e1;
     margin: 20px 20px 0px 0;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #00ccff;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: #2374e1;
+    color: rgba(255, 255, 255, 0.814);
+    border: 1px solid #2374e1;
 
 }
 
 .pagination:hover {
-    background-color: #00ccff00;
-    border: 1px solid #2374e1;
+    background-color: #2375e100;
+    border: 1px solid #2375e1;
+    transition: all 0.5s ease;
+    color: #091627;
 }
 
 

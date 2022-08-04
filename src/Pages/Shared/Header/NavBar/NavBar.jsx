@@ -9,7 +9,7 @@ function NavBar() {
         <>
             <nav className="navbar">
                 <div className="nav-container">
-                    <NavLink exact to="/" className="nav-logo">
+                    <NavLink exact to="/" className="nav-logo p-0">
                         CodeBucks
                         <i className="fas fa-code"></i>
                     </NavLink>

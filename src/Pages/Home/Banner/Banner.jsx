@@ -9,14 +9,14 @@ const Banner = () => {
             <div className="main-sec">
                 <div className='row justify-content-between container banner'>
                     <div className='col-12 col-md-6 col-lg-7 text-start'>
-                        <div>
+                        <div className='banner-left'>
 
                             <h1 className='hero-head'>Grow up yourBusiness and <span>  Branding</span> as your  Dream
                             </h1>
                             <p className='hero-description mb-5 mt-4'>Growing up of business and branding is always challenging but not impossible.The more you use technology in business, the more people will be engaged and boostup business profit. </p>
 
                             <div className='hero-button text-start mb-5'>
-                                <Link to="/service"> <button className='common-button '>Get Started</button></Link>
+                                <Link to="/service"> <button className='common-button '>Get Started With Us</button></Link>
                             </div>
                         </div>
                     </div>

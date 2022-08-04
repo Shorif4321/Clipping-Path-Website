@@ -20,10 +20,10 @@ const Pricing = () => {
         <div className='pricing-main mt-5 py-5'>
             <div className="container service-section py-5 mb-5">
                 <div className='col-10 m-auto'>
-                    <h2 className='fs-1 text-bold mb-3 text-white'>
+                    <h2 className='fs-1 text-bold mb-3'>
                         Services We Provide
                     </h2>
-                    <p className='my-4 common-p text-white'>Clipping Path Studio – An outsourcing company providing all kinds of image editing services including background removal, image masking, ghost mannequin effect, shadow creation, color correction, and eCommerce Product photo editing service.</p>
+                    <p className='my-4 common-p'>Clipping Path Studio – An outsourcing company providing all kinds of image editing services including background removal, image masking, ghost mannequin effect, shadow creation, color correction, and eCommerce Product photo editing service.</p>
                 </div>
 
                 <div className="row ">

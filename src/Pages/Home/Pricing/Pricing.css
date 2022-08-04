@@ -1,25 +1,23 @@
 .pricing-main {
-    background-image: url(../../../Images/computer-2982270__340.jpg);
+    /*  background-image: url(../../../Images/computer-2982270__340.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.31);
+    /*  background-color: #2374e1; */
+    background-color: white;
 }
 
 
-.pricing {
-    box-shadow: 0 1px 18px -10px rgb(0 0 0 / 30%);
-}
 
 .card-body h4 {
     color: #7b7c7e;
 }
 
 .pricing-card {
-    border: 1px solid white;
     border-radius: 5px;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 

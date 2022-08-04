@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import "./Blog.css"
 
 const Blog = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
 
     const [services, setServices] = useState([]);
     useEffect(() => {
