@@ -2,6 +2,8 @@
     color: #7b7c7e;
     font-size: 18px;
     line-height: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 .common-button {
@@ -141,12 +143,8 @@
 
 
     .hero-head span {
-        font-family: serif;
-        color: #091627;
-        font-weight: 600;
         font-size: 30px;
         line-height: 35px;
-        color: #00ccff;
 
     }
 
@@ -207,12 +205,9 @@
 
 
     .hero-head span {
-        font-family: serif;
-        color: #091627;
         font-weight: 600;
         font-size: 35px;
         line-height: 40px;
-        color: #00ccff;
 
     }
 

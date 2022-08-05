@@ -17,9 +17,9 @@ const Pricing = () => {
 
 
     return (
-        <div className='pricing-main mt-5 py-5'>
+        <div className='pricing-main  py-md-5'>
             <div className="container service-section py-5 mb-5">
-                <div className='col-10 m-auto'>
+                <div className='col-11 col-md-10 m-auto'>
                     <h2 className='fs-1 text-bold mb-3'>
                         Services We Provide
                     </h2>

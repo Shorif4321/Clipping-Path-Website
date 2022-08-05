@@ -7,10 +7,10 @@ import quotation from '../../../Images/quotation.png'
 
 const Review = () => {
     return (
-        <div className='review-main py-5'>
+        <div className='review-main pt-5 pb-md-5'>
             <div className="col-12 col-lg-9 container mt-5 pt-md-5">
                 <div className='d-flex  review-heading'>
-                    <blockquote> <img className='img-fluid me-3' src={quotation} alt="blockquote" /></blockquote>
+                    <blockquote> <img className='img-fluid me-3 ' src={quotation} alt="blockquote" /></blockquote>
 
 
                     <blockquote> <h1>Real Stories from Real Clients</h1>

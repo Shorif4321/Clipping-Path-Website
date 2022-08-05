@@ -94,15 +94,17 @@
         margin-bottom: 20px;
     }
 
-    .review-right {}
+    .review-heading img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        background-size: cover;
+    }
 
-    .review-right1 {}
+    .review-heading h1 {
+        margin-left: -15px;
+    }
 
-    .review-right2 {}
-
-    .review-otherwise {}
-
-    .blockquote {}
 
     .blockquote img {
         height: 15px;
