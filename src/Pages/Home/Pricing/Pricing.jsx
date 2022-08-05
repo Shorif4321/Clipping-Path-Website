@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import TwentyTwenty from "react-twentytwenty";
+
+import ReactCompareImage from "react-compare-image";
+
 import './Pricing.css'
 const Pricing = () => {
 
@@ -10,8 +12,6 @@ const Pricing = () => {
         fetch('./Services.JSON')
             .then(res => res.json())
             .then(data => setPrices(data?.slice(0, 4)))
-        console.log(prices);
-
     }, [])
 
 
@@ -28,15 +28,19 @@ const Pricing = () => {
 
                 <div className="row ">
                     {
-                        prices?.map(price => <div id={price.id} className="col-12 col-md-6 col-lg-3 my-3">
+                        prices?.map(price => <div key={price?.id} className="col-12 col-md-6 col-lg-3 my-3">
                             <div className="pricing-card pb-5">
-                                <div className=''>
-                                    <TwentyTwenty className=""
-                                        left={<img className="img-fluid card-img-top" src={price?.image} />}
-                                        right={<img className="img-fluid card-img-top" src={price?.image2} />}
-                                        slider={<div className="slider" />}
-                                    />
+                                <div className="mainWrapper">
+                                    <div className="contentWrapper">
+                                        <ReactCompareImage
+                                            hover={true}
+                                            vertical={false}
+                                            leftImage={price?.image}
+                                            rightImage={price?.image2}
+                                        />
+                                    </div>
                                 </div>
+
 
                                 <div className="col-10 card-body m-auto  mt-3">
                                     <h4 className="card-title  text-start">{price.name}</h4>

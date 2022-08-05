@@ -18,7 +18,7 @@
     border: none;
     background-color: #2374e1;
     text-transform: capitalize;
-    color: rgba(255, 255, 255, 0.814);
+    color: #091627;
     font-weight: bold;
     padding: 0 40px;
     border: 1px solid #2374e1 !important;
@@ -27,25 +27,25 @@
 
 .subscribe button:hover {
     background-color: #091627;
-    color: rgba(255, 255, 255, 0.814);
+    color: #e2eaee;
     transition: all 0.9s ease;
     border: 1px solid #2374e1 !important;
 }
 
 .footer-main {
-    background-color: #091627;
+    background-color: #e2eaee;
 }
 
-.footer-header h3 {
+/* .footer-header h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.814)
+    color: black
 }
-
+ */
 
 .footer-sections {
     display: flex !important;
@@ -61,7 +61,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: rgba(255, 255, 255, 0.814);
+    color: #091627;
     text-align: left;
     margin-top: 18px;
 }
@@ -73,32 +73,21 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.814);
+    color: #091627;
     margin: 30px 0px;
 }
-
-/* .social1 {
-    color:  rgba(255, 255, 255, 0.814);
-    text-align: center;
-    margin-right: 24px;
-    padding: 12px;
-    width: 40px;
-    height: 40px;
-    border: 1px solid #7a7975;
-    border-radius: 100%;
-} */
 
 .social3,
 .social4,
 .social5 {
-    color: rgba(255, 255, 255, 0.814);
+    color: #091627;
     text-align: center;
     margin-right: 24px;
     padding: 11px;
     width: 45px;
     height: 45px;
     font-size: 25px;
-    border: 1px solid #7a7975;
+    border: 1px solid #091627;
     border-radius: 100%;
 }
 
@@ -125,7 +114,7 @@
     font-weight: 700;
     font-size: 21px;
     line-height: 24px;
-    color: rgba(255, 255, 255, 0.814);
+    color: #091627;
     text-align: left;
 }
 
@@ -136,7 +125,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: rgba(255, 255, 255, 0.814);
+    color: #091627;
     display: block;
     text-align: left;
     margin-top: 10px;
@@ -149,7 +138,7 @@
 .divider {
     display: block;
     opacity: 0.1;
-    border: 2px solid rgba(255, 255, 255, 0.814);
+    border: 2px solid #091627;
 
 }
 
@@ -159,8 +148,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: rgba(255, 255, 255, 0.814);
-    opacity: 0.4;
+    color: #091627;
+
 }
 
 @media only screen and (max-width: 667px) {
@@ -208,10 +197,6 @@
 
 
     }
-
-
-
-
 
     .footer-main {
         padding: 5px 5px;

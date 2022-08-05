@@ -25,7 +25,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-
+            {/* 
             <div className='row justify-content-evenly container main-banner-card '>
                 <div className="col-12 col-md-3 banner-card">
                     <h4 className='text-start'>Some Text will be Add Here</h4>
@@ -42,7 +42,7 @@ const Banner = () => {
                     <h4 className='text-start'>Some Text will be Add Here</h4>
                     <p className='text-start fw-bold'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, sunt. Laborum ducimus rem molestiae ab animi at reiciendis cumque ullam.</p>
                 </div>
-            </div>
+            </div> */}
         </>
     );
 };

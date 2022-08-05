@@ -25,30 +25,35 @@ const Header = () => {
         <nav className='navbar'>
             <div className=" container">
                 <div>
-                    <Nav.Link className="nav-logo"><Link className='nav-links' to="/"> <img className='img-fluid' src={logo} alt="" /> </Link>
+                    <Nav.Link className="nav-logo">
+                        <Link className='nav-links' to="/"> <img className='img-fluid' src={logo} alt="" /> </Link>
                     </Nav.Link>
                 </div>
                 <div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <Nav.Link className="" onClick={handleClick}> <Link className='nav-links' to="/">Home</Link>
+                            <Nav.Link className="" onClick={handleClick}>
+                                <Link className='nav-links' to="/">Home</Link>
                             </Nav.Link>
                         </li>
 
                         <li className="nav-item">
-                            <Nav.Link className="" onClick={handleClick} > <Link className="nav-links" to="/blog">Blog</Link> </Nav.Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Nav.Link to="/blog" className='text-decoration-none ' onClick={handleClick} ><Link className="nav-links" to="/contact">Contact</Link>
+                            <Nav.Link className="" onClick={handleClick} >
+                                <Link className="nav-links" to="/blog">Blog</Link>
                             </Nav.Link>
                         </li>
 
                         <li className="nav-item">
-                            <Nav.Link to="/contact" className=" nav-links" onClick={handleClick}>
-                                Contact Us
+                            <Nav.Link className='text-decoration-none ' onClick={handleClick} >
+                                <Link className="nav-links" to="/contact">Contact</Link>
                             </Nav.Link>
                         </li>
+
+                        {/*  <li className="nav-item">
+                            <Nav.Link className=" nav-links" onClick={handleClick}>
+                                <Link className="nav-links" to="/before">  </Link>
+                            </Nav.Link>
+                        </li> */}
                     </ul>
                 </div>
                 <div className="nav-icon" onClick={handleClick}>

@@ -34,6 +34,16 @@ const Footer = () => {
                         <Link className='text-decoration-none footer-link' to="/blog">Blog</Link>
 
                     </div>
+                    <div className="col-md-3  col-12 text-start pe-5 me-5">
+                        <h4 className='footer-head'>Quick Links</h4>
+
+                        <p>1/4, Block-E, Sat-Mosjit Road, Mohammadpur Bus Stand, Dhaka-1207. 1207 Dhaka, Dhaka Division, Bangladesh</p>
+                        <p>info@topitltd.com</p>
+                        <p>Phone: +880 1616-028947 <br />
+                            Whatsapp: +880 1681-477270
+                        </p>
+
+                    </div>
                     <div className="col-md-3  col-12">
                         <h4 className='footer-head'>Quick Links</h4>
                         <Link className='text-decoration-none footer-link' to="/home">Home</Link>
@@ -42,7 +52,7 @@ const Footer = () => {
                         <Link className='text-decoration-none footer-link' to="/portfolio">Portfolio</Link>
 
                     </div>
-                    <div className="col-md-3 col-12 first-colum">
+                    <div className="col-md-3 col-12 first-colum  me-5">
                         <h4 className='footer-head'>Contact Us</h4>
                         <p>1/4, Block-E, Sat-Mosjit Road, Mohammadpur Bus Stand, Dhaka-1207. 1207 Dhaka, Dhaka Division, Bangladesh</p>
                         <p>info@topitltd.com</p>
@@ -53,7 +63,7 @@ const Footer = () => {
                 </div>
 
                 <div className='footer-bottom'>
-                    <div className='py-md-5 mt-3'> <span className='divider'></span></div>
+                    <div className='my-md-5 mt-3'> <span className='divider'></span></div>
                     <div className='d-md-flex justify-content-between align-items-center py-3'>
                         <div className='d-flex network my-4'>
                             <p className='me-2 fs-2'>

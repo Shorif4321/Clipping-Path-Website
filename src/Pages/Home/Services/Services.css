@@ -58,12 +58,6 @@
     transition: all 0.9s ease;
 }
 
-.slider {
-    height: 100%;
-    width: 4px;
-    background-color: #2374e1;
-}
-
 .pagination-main {
     display: flex;
 }

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./Services.css"
-import img1 from "../../../Images/images.png"
-import TwentyTwenty from "react-twentytwenty";
+import ReactCompareImage from "react-compare-image";
 
 
 const Services = () => {
@@ -11,7 +10,6 @@ const Services = () => {
         fetch('./Services.JSON')
             .then(res => res.json())
             .then(data => setServices(data))
-        console.log(services);
 
     }, [])
 
@@ -28,17 +26,19 @@ const Services = () => {
 
                 <div className="row ">
                     {
-                        services?.map(service => <div className="col-12 col-md-12 col-lg-6 my-3">
+                        services?.map(service => <div key={service?.id} className="col-12 col-md-12 col-lg-6 my-3">
                             <div className="clipping-main p-4">
                                 <div className='col-12 col-md-5 '>
-                                    <TwentyTwenty className=""
-                                        left={<img className="card-img-top" src={service?.image} />}
-                                        right={<img className="card-img-top" src={service?.image2} />}
-                                        slider={<div className="slider" />}
-
-                                    />
-
-
+                                    <div className="mainWrapper">
+                                        <div className="contentWrapper">
+                                            <ReactCompareImage
+                                                hover={true}
+                                                vertical={false}
+                                                leftImage={service?.image}
+                                                rightImage={service?.image2}
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="card-body text-start ps-md-4 col-12 col-md-7">
                                     <h4 className="card-title">{service?.name?.slice(0, 30)}</h4>
@@ -49,6 +49,7 @@ const Services = () => {
                         </div>
                         )
                     }
+
                     <div className='pagination-main col-12'>
                         <span className='pagination'>1</span>
                         <span className='pagination'>2</span>
@@ -61,14 +62,7 @@ const Services = () => {
                         <p className='pagination'>9</p>
                     </div>
                 </div>
-
-
-
-
             </div>
-
-
-
         </div>
     );
 };

@@ -9,6 +9,11 @@
 }
 
 
+.contentWrapper {
+    height: 100%;
+    width: 100%;
+}
+
 
 .card-body h4 {
     color: #7b7c7e;
