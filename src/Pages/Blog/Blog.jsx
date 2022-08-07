@@ -7,13 +7,11 @@ const Blog = () => {
         window.scrollTo(0, 0)
     }, [])
 
-
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('./Services.JSON')
             .then(res => res.json())
             .then(data => setServices(data))
-
     }, [])
 
 

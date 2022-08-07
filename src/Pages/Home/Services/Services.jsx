@@ -26,9 +26,9 @@ const Services = () => {
 
                 <div className="row ">
                     {
-                        services?.map(service => <div key={service?.id} className="col-12 col-md-12 col-lg-6 my-3">
+                        services?.map(service => <div key={service?.id} className="col-12 col-md-6 col-lg-6 my-3">
                             <div className="clipping-main p-4">
-                                <div className='col-12 col-md-5 '>
+                                <div className=''>
                                     <div className="mainWrapper">
                                         <div className="contentWrapper">
                                             <ReactCompareImage
@@ -40,9 +40,9 @@ const Services = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="card-body text-start ps-md-4 col-12 col-md-7">
+                                <div className="card-body py-4">
                                     <h4 className="card-title">{service?.name?.slice(0, 30)}</h4>
-                                    <p className="card-text py-3 common-p">{service.des.slice(0, 325)}</p>
+                                    <p className="card-text common-p">{service.des.slice(0, 325)}</p>
                                     <Link className='service-button text-center' to="/">Explore</Link>
                                 </div>
                             </div>

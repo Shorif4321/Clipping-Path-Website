@@ -1,0 +1,37 @@
+.portfolio-name {
+    color: #7b7c7e;
+    padding: 0 0 20px 0;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #e2eaee
+}
+
+.nav-tabs .nav-link {
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 2px 20px;
+    background-color: #2374e1;
+    color: white;
+    border: 1px solid #2374e1;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 1px solid #2374e1;
+    background-color: #2375e100;
+    color: black;
+}
+
+link,
+.nav-tabs .nav-link.active {
+    color: #f5b921;
+    border: 1px solid #f5b921;
+}

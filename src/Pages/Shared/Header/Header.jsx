@@ -36,6 +36,11 @@ const Header = () => {
                                 <Link className='nav-links' to="/">Home</Link>
                             </Nav.Link>
                         </li>
+                        <li className="nav-item">
+                            <Nav.Link className="" onClick={handleClick}>
+                                <Link className='nav-links' to="/portfolio">Portfolio</Link>
+                            </Nav.Link>
+                        </li>
 
                         <li className="nav-item">
                             <Nav.Link className="" onClick={handleClick} >
