@@ -5,6 +5,7 @@ import "./Portfolio.css"
 import ReactCompareImage from "react-compare-image";
 import Pricing from '../Home/Pricing/Pricing';
 import Masking from './Masking/Masking';
+import Nav from 'react-bootstrap/Nav';
 
 const Portfolio = () => {
 
@@ -23,11 +24,11 @@ const Portfolio = () => {
                         <div className="col-md-4 col-12 portfolio-upper1">
                             <h1 className='portfolio-name text-md-start'>Experience The Beauty of Our Services</h1>
                         </div>
-                        <div className="col-md-3 col-12  portfolio-upper2">
+                        <div className="col-md-3 col-11 m-auto  portfolio-upper2">
                             <p className='common-p text-start'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea soluta earum expedita iste quas ipsa illum rerum molestias, nam ullam deleniti quisquam accusamus rem dolorum. Molestiae facere suscipit distinctio id ab. Doloremque.</p>
 
                         </div>
-                        <div className="col-md-3 col-12  portfolio-upper3">
+                        <div className="col-md-3 col-11 m-auto  portfolio-upper3">
                             <p className='common-p text-start'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea soluta earum expedita iste quas ipsa illum rerum molestias, nam ullam deleniti quisquam accusamus rem dolorum. Molestiae facere suscipit distinctio id ab. Doloremque.</p>
 
                         </div>
@@ -66,40 +67,52 @@ const Portfolio = () => {
                         </h2>
                         <p className='my-4 common-p text-black'>Clipping Path Studio – An outsourcing company providing all kinds of image editing services including background removal, image masking, ghost mannequin effect, shadow creation, color correction, and eCommerce Product photo editing service.</p>
                     </div>
+
                     <div className='bg-white rounded'>
                         <Tabs
                             defaultActiveKey="Masking"
                             transition={false}
                             id="noanim-tab-example"
-                            className="mb-3 nab-bac"
-                        >
+                            className="mb-3 nab-bac">
+
                             <Tab eventKey="Masking" title="Masking">
                                 <Masking></Masking>
                             </Tab>
+
                             <Tab eventKey="ClippingShadow" title="ClippingShadow">
-
+                                <Masking></Masking>
                             </Tab>
+
                             <Tab eventKey="Database" title="Database">
-
+                                <Masking></Masking>
                             </Tab>
+
                             <Tab eventKey="CMS" title="CMS">
-
-                            </Tab>
-                            {/* <Tab eventKey="Mobile" title="Mobile">
-                        <Mobile />
-                    </Tab> */}
-                            <Tab eventKey="DevOps" title="Infra and DevOps">
-
+                                <Masking></Masking>
                             </Tab>
                         </Tabs>
                     </div>
                 </div>
             </section>
 
-
-
             {/* === Pricing Common section ===== */}
             <Pricing></Pricing>
+
+            {/*  <section>
+                <div className="Quality-assurance container">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> */}
         </>
     );
 };

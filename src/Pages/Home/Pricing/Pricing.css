@@ -44,4 +44,10 @@
 
 @media only screen and (max-width:991px) and (min-width:668px) {}
 
-@media only screen and (max-width: 1200px) and (min-width:992px) {}
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+    .pricing-button-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

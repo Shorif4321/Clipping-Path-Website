@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "image": "https://i.ibb.co/rxm0Qf7/Group-1000001897.png",
+        "name": "Choose services",
+        "des": "Choose which service you need. If none of the options fit what you’re looking for, specify the service you need in the space provided"
+    },
+    {
+        "id": "2",
+        "image": "https://i.ibb.co/ZKp6Hjd/Group-1000001826.png",
+        "name": "Choose Output File Options",
+        "des": "Choose your preferred file format, background type, and if you want us to include the photoshop edit path."
+    },
+    {
+        "id": "3",
+        "image": "https://i.ibb.co/ygsKjCk/Group-1000001828.png",
+        "name": "Drag & Drop Files",
+        "des": "Drag and drop your files (or click browse) to upload your photos."
+    },
+    {
+        "id": "4",
+        "image": "https://i.ibb.co/qWMDPQP/Group-1000001830.png",
+        "name": "Contact Details",
+        "des": "Add your contact details so we know where/how to reach you."
+    },
+    {
+        "id": "5",
+        "image": "https://i.ibb.co/xXZTRhB/Group-1000001832-1.png",
+        "name": "Get a Quote",
+        "des": "Click the “Get a Quote” button."
+    }
+]

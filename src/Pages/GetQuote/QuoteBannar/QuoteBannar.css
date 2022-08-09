@@ -1,0 +1,49 @@
+.main-quote {
+    clip-path: circle(50% at 50% 0);
+    padding-bottom: 200px;
+    background-color: #e2eaee;
+
+}
+
+.quote-banner {
+    z-index: 22;
+}
+
+.quote-banner h2 {
+    color: black;
+}
+
+.quote-banner p {}
+
+.free-quote2 {
+    background-image: url(../../../Images/underline.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+
+.quote-social {
+    font-size: 30px;
+    color: #2374e1;
+}
+
+
+
+
+@media only screen and (max-width: 667px) {
+    .quote-banner {
+        flex-direction: column;
+    }
+
+    br {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .quote-banner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

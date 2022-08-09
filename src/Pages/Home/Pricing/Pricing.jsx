@@ -61,9 +61,9 @@ const Pricing = () => {
                                         <p className=" card-text py-3 common-p ">$ {price?.id}</p>
                                     </div>
 
-                                    <div className='mt-5'>
-                                        <Link className='service-button text-center ' to="/">Explore</Link>
-                                        <Link className='service-button text-center  ' to="/">Explore</Link>
+                                    <div className='mt-5 pricing-button-box'>
+                                        <Link className=' service-button text-center ' to="/">Explore</Link>
+                                        <Link className=' service-button text-center  ' to="/">Explore</Link>
                                     </div>
                                 </div>
                             </div>

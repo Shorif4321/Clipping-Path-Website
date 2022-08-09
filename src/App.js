@@ -6,6 +6,8 @@ import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Portfolio from "./Pages/Portfolio/Portfolio"
 import Blog from './Pages/Blog/Blog';
+import GetQuote from './Pages/GetQuote/GetQuote';
+import FreeTrial from './Pages/FreeTrial/FreeTrial';
 
 
 function App() {
@@ -18,6 +20,9 @@ function App() {
           <Route exact path="/portfolio" element={<Portfolio></Portfolio>} />
           <Route path="/blog" element={<Blog></Blog>} />
           <Route path="/contact" element={<Contact></Contact>} />
+          <Route path="/all-services" element={<></>} />
+          <Route path="/get-quote" element={<GetQuote></GetQuote>} />
+          <Route path="/free-trial" element={<FreeTrial></FreeTrial>} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
