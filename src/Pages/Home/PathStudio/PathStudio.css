@@ -17,7 +17,7 @@
 
 .clop-right h2 {
     font-family: system-ui;
-    color: #7b7c7e;
+    color: rgba(35, 35, 35, 0.868);
     font-weight: 500;
     font-size: 45px;
     line-height: 50px;
@@ -31,7 +31,7 @@
 
 .clop-right h5 {
     font-family: system-ui;
-    color: #7b7c7e;
+    color: rgba(35, 35, 35, 0.868);
     font-weight: 500;
     font-size: 30px;
     line-height: 35px;
@@ -40,7 +40,7 @@
 
 .clop-right p {
     font-family: system-ui;
-    color: #7b7c7e;
+    color: rgba(35, 35, 35, 0.868);
     font-weight: 500;
     font-size: 17px;
     margin-bottom: 30px;
@@ -48,11 +48,11 @@
 
 .clop-right h4 {
     font-family: system-ui;
-    color: rgba(255, 255, 255, 0.814);
+    color: rgba(35, 35, 35, 0.868);
     font-weight: 400;
     font-size: 35px;
     line-height: 30px;
-    background-color: #2374e1;
+
     padding: 5px 5px 10px 3px;
     width: 400px;
 

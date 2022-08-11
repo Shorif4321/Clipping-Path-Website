@@ -13,27 +13,10 @@ const Contact = () => {
             .then(data => setfos(data?.data))
     }, {})
 
-    /* ============ template ready  but need gmail and password for setup new account in email js */
-    /*   const handleSubmite = (e) => {
-          emailjs.sendForm('service_1wgamld', 'template_35p7kz9', e.target, 'lR6am4ECiMKuJVZYl').then(res => {
-              alert("Your Message send successfully");
-          }).catch(err => alert("Your information mail is not sent"))
-  
-          e.preventDefault()
-          e.target.reset()
-      } */
+
 
     return (
         <div>
-            {/* ======= Gallery Banner ======== */}
-            {/* <section className='contact-banner'>
-                <div className='col-md-7 mx-auto py-md-5'>
-                    <div className='py-4'>
-                        <h1 className='py-5'>Contacts</h1>
-                    </div>
-                </div>
-            </section> */}
-            {/* ======= contact map ======== */}
             <section>
                 <div className="d-md-flex align-items-center mt-5 container">
                     <div className="col-12 col-md-7">

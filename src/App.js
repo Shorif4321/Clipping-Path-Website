@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact></Contact>} />
           <Route path="/all-services" element={<></>} />
           <Route path="/get-quote" element={<GetQuote></GetQuote>} />
-          <Route path="/free-trial" element={<FreeTrial></FreeTrial>} />
+          <Route path="/get-free-trial" element={<FreeTrial></FreeTrial>} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

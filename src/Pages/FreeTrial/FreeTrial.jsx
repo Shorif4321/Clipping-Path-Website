@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import QuoteBanner from '../GetQuote/QuoteBannar/QuoteBanner';
+import FreeForm from './FreeForm/FreeForm';
 
 const FreeQuote = () => {
+    //  ========= Page Load from top of the page code start ========= 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
+
+
     return (
-        <div className='my-5 py-5'>
-            <h1>Free Quote Coaming soon</h1>
-        </div>
+        <>
+            <QuoteBanner></QuoteBanner>
+            <FreeForm></FreeForm>
+
+        </>
     );
 };
 

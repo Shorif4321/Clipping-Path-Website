@@ -22,7 +22,7 @@ const Review = () => {
             <div className="review-sub container py-md-5 col-lg-7 col-md-11 m-auto">
 
                 <div className=" col-12 col-md-6 text-start ">
-                    <div className="review-left  rounded ">
+                    <div className="review-left rounded review-card">
                         <div className="p-4">
                             <div className='d-flex blockquote'>
                                 <img className='img-fluid' src={quite} alt="aja" />
@@ -41,7 +41,7 @@ const Review = () => {
                 </div>
                 <div className="col-12 col-md-6 ms-md-5 text-start review-sub">
                     <div className="review-right">
-                        <div className="review-left  m-auto rounded">
+                        <div className="review-left review-card  m-auto rounded">
                             <div className="p-4">
                                 <div className='d-flex blockquote'>
                                     <img className='img-fluid' src={quite} alt="aja" />
@@ -58,7 +58,7 @@ const Review = () => {
                             </div>
                         </div>
                         <div className="review-right2 mt-md-5 mt-4">
-                            <div className="review-left rounded">
+                            <div className="review-left review-card rounded">
                                 <div className="p-4">
                                     <div className='d-flex blockquote'>
                                         <img className='img-fluid' src={quite} alt="aja" />
@@ -83,7 +83,7 @@ const Review = () => {
             <div className="review-sub container pb-5 col-lg-7 col-md-11 m-auto">
                 <div className="col-12 col-md-6  text-start review-sub me-md-5 ">
                     <div className="review-right">
-                        <div className="review-left  m-auto rounded">
+                        <div className="review-left review-card m-auto rounded">
                             <div className="p-4">
                                 <div className='d-flex blockquote'>
                                     <img className='img-fluid' src={quite} alt="aja" />
@@ -100,7 +100,7 @@ const Review = () => {
                             </div>
                         </div>
                         <div className="review-right2 mt-md-5 mt-4">
-                            <div className="review-left rounded">
+                            <div className="review-left review-card rounded">
                                 <div className="p-4">
                                     <div className='d-flex blockquote'>
                                         <img className='img-fluid' src={quite} alt="aja" />
@@ -121,8 +121,8 @@ const Review = () => {
                     </div>
                 </div>
 
-                <div className=" col-12 col-md-6 text-start">
-                    <div className="review-left  rounded">
+                <div className="review-card col-12 col-md-6 text-start">
+                    <div className="review-left review-card rounded">
                         <div className="p-4">
                             <div className='d-flex blockquote'>
                                 <img className='img-fluid' src={quite} alt="aja" />

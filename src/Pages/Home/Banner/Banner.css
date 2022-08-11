@@ -1,5 +1,19 @@
+.main-sec {
+    position: relative;
+}
+
+.banner {
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+
+}
+
+/* #e2eaee */
+
 .common-p {
-    color: #7b7c7e;
+    color: rgba(35, 35, 35, 0.868);
     font-size: 18px;
     line-height: 25px;
     margin: 0;
@@ -26,21 +40,6 @@
     border: 1px solid #2374e1;
 }
 
-
-.main-sec {
-    background-color: #e2eaee;
-    position: relative;
-
-
-}
-
-.banner {
-    height: 85vh;
-    align-items: center;
-    position: relative;
-    background-color: #e2eaee;
-
-}
 
 .main-banner-card {
     position: absolute;

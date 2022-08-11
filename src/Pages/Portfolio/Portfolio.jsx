@@ -5,9 +5,13 @@ import "./Portfolio.css"
 import ReactCompareImage from "react-compare-image";
 import Pricing from '../Home/Pricing/Pricing';
 import Masking from './Masking/Masking';
-import Nav from 'react-bootstrap/Nav';
 
 const Portfolio = () => {
+    //  ========= Page Load from top of the page code start ========= 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
 
     const [services, setServices] = useState([]);
     useEffect(() => {
@@ -94,25 +98,8 @@ const Portfolio = () => {
                     </div>
                 </div>
             </section>
-
             {/* === Pricing Common section ===== */}
             <Pricing></Pricing>
-
-            {/*  <section>
-                <div className="Quality-assurance container">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
-                            <div class="card h-100">
-                                <img src="..." class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
         </>
     );
 };

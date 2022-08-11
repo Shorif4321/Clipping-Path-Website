@@ -1,5 +1,7 @@
-.review-main {
-    background-color: #e2eaee;
+.review-main {}
+
+.review-card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .review-heading img {

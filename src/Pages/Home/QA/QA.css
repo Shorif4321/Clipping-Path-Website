@@ -5,7 +5,7 @@
 }
 
 .accordion-body {
-    color: #7b7c7e;
+    color: rgba(35, 35, 35, 0.868);
 }
 
 
@@ -30,8 +30,7 @@
     text-align: left;
     font-size: 17px;
     background-color: white;
-    color: #585859;
-    ;
+    color: rgba(35, 35, 35, 0.868);
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
@@ -41,7 +40,7 @@
 .accordion-button:not(.collapsed) {
     width: 100%;
     background-color: white;
-    color: #7b7c7e;
+    color: rgba(35, 35, 35, 0.868);
     box-shadow: white;
 }
 

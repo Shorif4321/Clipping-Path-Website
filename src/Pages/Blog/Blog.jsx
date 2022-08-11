@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "./Blog.css"
 
 const Blog = () => {
+    //  ========= Page Load from top of the page code start ========= 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

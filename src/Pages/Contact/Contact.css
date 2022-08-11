@@ -1,12 +1,3 @@
-.contact-banner {
-    background-image: url(../../Images/computer-2982270__340.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: #005AA6;
-}
-
 .contact-banner h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -19,10 +10,6 @@
     margin: 0 0 20px 0;
 }
 
-.from-main {
-    background: #DCE8F6;
-}
-
 .from-section h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -30,7 +17,7 @@
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
-    color: #2B2B2B;
+    color: rgba(35, 35, 35, 0.868);
 
 }
 
@@ -50,7 +37,7 @@
     font-size: 38px;
     line-height: 50px;
     text-transform: uppercase;
-    color: #2B2B2B;
+    color: rgba(35, 35, 35, 0.868);
 }
 
 .map-left h4 {
@@ -60,15 +47,13 @@
     font-size: 26px;
     line-height: 50px;
     text-transform: uppercase;
-    color: #2B2B2B;
+    color: rgba(35, 35, 35, 0.868);
 }
 
 
-.contact-from {}
-
 .contact-from input {
-    padding: 7px 0px 7px 15px;
-    border: 1px solid rgba(32, 29, 29, 0.5);
+    padding: 12px;
+    border: 1px solid rgba(102, 99, 99, 0.5);
     border-radius: 2px;
 }
 
@@ -79,19 +64,17 @@
     font-size: 16px;
     line-height: 19px;
     text-transform: capitalize;
-
-    color: #949191;
-
+    color: rgba(35, 35, 35, 0.868);
 }
 
 .textarea-box {
     padding: 26px 23px 0px 55px;
 }
 
-.textarea {
-    padding: 10px;
-    border: 1px solid rgba(32, 29, 29, 0.5);
+textarea {
+    border: 1px solid rgba(102, 99, 99, 0.5);
 }
+
 
 .form-check {
     font-family: 'Inter', sans-serif;
@@ -104,19 +87,7 @@
     margin: 35px 0 0 0;
 }
 
-.form-button {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    background: #00A652;
-    padding: 20px 38px;
-    margin: 34px 0;
-    border: 1px solid #00A652;
-}
+
 
 .form-button:hover {
     background-color: #00a65300;

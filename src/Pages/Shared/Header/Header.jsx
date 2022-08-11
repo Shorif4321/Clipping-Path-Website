@@ -25,20 +25,18 @@ const Header = () => {
     return (
         <nav className='navbar'>
             <div className=" container">
-                <div>
+                <div className=''>
                     <Nav.Link className="nav-logo">
                         <Link className='nav-links' to="/"> <img className='img-fluid' src={logo} alt="" /> </Link>
                     </Nav.Link>
                 </div>
-                <div>
+                <div className='d-flex justify-content-between'>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
                             <Nav.Link className="" onClick={handleClick}>
                                 <Link className='nav-links' to="/">Home</Link>
                             </Nav.Link>
                         </li>
-
-
                         <li>
                             <NavDropdown className='nav-links' title="Services" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="/">Action</NavDropdown.Item>
@@ -51,15 +49,11 @@ const Header = () => {
                                 </NavDropdown.Item>
                             </NavDropdown>
                         </li>
-
-
-
                         <li className="nav-item">
                             <Nav.Link className="" onClick={handleClick}>
                                 <Link className='nav-links' to="/portfolio">Portfolio</Link>
                             </Nav.Link>
                         </li>
-
                         <li className="nav-item">
                             <Nav.Link className="" onClick={handleClick} >
                                 <Link className="nav-links" to="/blog">Blog</Link>
@@ -71,29 +65,19 @@ const Header = () => {
                                 <Link className="nav-links" to="/contact">Contact</Link>
                             </Nav.Link>
                         </li>
+
+                        <li className="train-contact mx-lg-4">
+                            <Nav.Link className="" onClick={handleClick}>
+                                <Link className='nav-links' to="/get-free-trial">Free Trial</Link>
+                            </Nav.Link>
+                        </li>
+                        <li className="train-contact">
+                            <Nav.Link className="" onClick={handleClick}>
+                                <Link className='nav-links' to="/get-quote">Get a Quote</Link>
+                            </Nav.Link>
+                        </li>
                     </ul>
                 </div>
-
-                <div>
-                    <ul className={click ? "nav-menu active" : "nav-menu"}>
-                        <div className='train-contact'>
-                            <li className="quite-items">
-                                <Nav.Link className="" onClick={handleClick}>
-                                    <Link className='nav-links' to="/free-trial">Free Trial</Link>
-                                </Nav.Link>
-                            </li>
-                        </div>
-                        <div className='train-contact ms-md-3'>
-                            <li className="quite-items">
-                                <Nav.Link className="" onClick={handleClick}>
-                                    <Link className='nav-links' to="/get-quote">Get a Quote</Link>
-                                </Nav.Link>
-                            </li>
-                        </div>
-                    </ul>
-                </div>
-
-
 
                 <div className="nav-icon" onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"}></i>

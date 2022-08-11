@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import "./QuoteFrom.css"
 import googleDrive from "../../../Images/Google_Drive.png"
 import dropbox from "../../../Images/2560px-Dropbox.png"
 import oneDrive from "../../../Images/OneDrive.png"
 
-const QuoteFrom = () => {
+const FreeForm = () => {
 
     const [instractions, setInstractions] = useState([]);
     useEffect(() => {
@@ -205,7 +204,7 @@ const QuoteFrom = () => {
                                             <textarea className="form-control " rows="5" ></textarea>
                                         </div>
                                         <div className='mt-4'>
-                                            <button className='get-quote-button text-center'>GET A QUOTE</button>
+                                            <button className='get-quote-button text-center'>GET A Free QUOTE</button>
                                         </div>
                                     </div>
                                 </div>
@@ -243,18 +242,10 @@ const QuoteFrom = () => {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
             </section>
-
-
-
 
         </div>
     );
 };
 
-export default QuoteFrom;
+export default FreeForm;

@@ -8,11 +8,11 @@ import Review from './Review/Review';
 import Services from './Services/Services';
 
 const Home = () => {
-    /* ========= Page Load from top of the page code start ========= 
+    //  ========= Page Load from top of the page code start ========= 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
-    */
+
 
 
 
